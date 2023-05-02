@@ -17,8 +17,10 @@ class Battlefield:
 
     def battle_phase(self):
         self.robot.attack_dino
+        self.dinosaur.attack_robot
         print(f'Ghorbash has attacked Boethiah! Our favorite dinos health is now at {Robot.attack_dino}!')
         print(f'Boethiah has retaliated! Ghorbash the Iron Hand is down to {Dinosaur.attack_robot}!')
 
     def display_winner(self):
         pass
+    
