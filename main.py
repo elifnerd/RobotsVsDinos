@@ -4,4 +4,4 @@ beginning_battle = Battlefield()
 beginning_battle.run_game()
 beginning_battle.display_welcome()
 beginning_battle.battle_phase()
-
+beginning_battle.display_winner()
