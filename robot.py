@@ -8,5 +8,5 @@ class Robot:
         self.hp = 300
         self.active_weapon = Weapon()
         
-    def attack_dino(self, dinosaur, health):
-        dinosaur.health -= Robot.active_weapon
+    def attack_dino(self, dinosaur, weapon):
+        dinosaur.health -= self.active_weapon.attack_power

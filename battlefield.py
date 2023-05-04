@@ -15,10 +15,10 @@ class Battlefield:
         print("Initializing sequence...")     
 
     def display_welcome(self):
-        print("Hello and welcome to all Monster enthusiasts! For today's Monster Showdown, we've got a doozy of a show for you. A battle between nature-made and man-made monsters! Who will win? Stay tuned to find out.")
+        print("Hello and welcome to ! For today's Monster Showdown, we've got a doozy of a show for you. A battle between nature-made and man-made monsters! Who will win? Stay tuned to find out.")
 
     def battle_phase_one(self):
-        dinosaur.attack_robot 
+        print(f'Boethiah attacks first. Its a hit! Ghorbash is down to {self.dinosaur.attack_robot}')
 
     def display_winner(self):
         pass
