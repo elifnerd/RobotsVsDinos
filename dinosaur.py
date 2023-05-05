@@ -2,14 +2,11 @@ from robot import Robot
 
 class Dinosaur:
     
-    def __init__(self):
+    def __init__(self, health):
         self.name = 'Boethiah the Becklespinax'
-        self.health = 150
+        self.health = health
         self.attack_power = 30
 
     def attack_robot(self, robot):
-        robot.hp -= dinosaur.attack_power
-        print(robot.hp)
-
-
+        robot.hp -= self.attack_power
     
